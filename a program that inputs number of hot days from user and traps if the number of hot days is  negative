@@ -1,0 +1,13 @@
+
+#include <stdio.h>
+int main()
+{
+    int num_hot;
+    printf("enter the number of hot days");
+    scanf("%d",&num_hot);
+while(num_hot<0)
+{
+    printf("negative number is invalid so try again:");
+    scanf("%d",&num_hot);
+}
+}
